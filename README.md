@@ -15,6 +15,11 @@ v10.22.1
 3.9.3
 ```
 
+```
+Bootstrapで必要なjQueryとPoper.jsは
+vue.config.jsでプラグインとして設定しています。
+```
+
 
 ## Project setup
 ```
