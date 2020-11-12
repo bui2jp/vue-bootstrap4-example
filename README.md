@@ -1,6 +1,6 @@
 # vue-bootstrap4
 
-Vue, Bootstrap を利用したログイン画面とダッシュボード画面の簡単なサンプル
+シンプルにVue, Bootstrap を利用したログイン画面とダッシュボード画面の簡単なサンプル
 
 Bootrapの画面は
 https://getbootstrap.com/docs/4.5/examples/dashboard/
