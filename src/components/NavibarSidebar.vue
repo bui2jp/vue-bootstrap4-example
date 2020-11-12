@@ -16,7 +16,6 @@
         aria-controls="sidebarMenu"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        @click="showsidebarMenu"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -75,15 +74,10 @@
 export default {
   data(){
     return{
-      isSidebarMenuShow:false
+      
     }
   },
   methods:{
-    showsidebarMenu: function(){
-      console.log('showsidebarMenu')
-      //nav id="sidebarMenu" のclassにshowを追加する
-      this.isSidebarMenuShow = !this.isSidebarMenuShow
-    },
     signOut: function(){
       console.log('signOut')
       this.$store.commit('afterSignOut')
