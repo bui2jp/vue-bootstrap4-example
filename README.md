@@ -6,6 +6,16 @@ Bootrapの画面は
 https://getbootstrap.com/docs/4.5/examples/dashboard/
 を参考に作成
 
+```
+% node -v 
+v10.22.1
+% npm -v 
+6.14.6
+% vue --version 
+3.9.3
+```
+
+
 ## Project setup
 ```
 npm install
